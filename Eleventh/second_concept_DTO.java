@@ -28,7 +28,7 @@ public class second_concept_DTO {
 		if (name == null) { // name이 null일 때
 			if (other.name != null) return false; // 비교 대상의 name이 null이 아니면 false
 			
-		}else if (!name.equals(other.name)) return false; // 두 개의 email 값이 다르면 false
+		}else if (!name.equals(other.name)) return false; // 두 개의 name 값이 다르면 false
 		
 		// name과 같음
 		
