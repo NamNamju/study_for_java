@@ -10,6 +10,10 @@ public class second_concept_DTO {
 		
 	}
 	
+	public second_concept_DTO() {
+		
+	}
+
 	public boolean equals(Object obj) {
 		/*
 		 * Á¶°Ç
