@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#feffc8" height="120.0" stroke="#cd8c14" strokeType="INSIDE" width="380.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="150">
+                     <font>
+                        <Font name="Wingdings 3" size="50.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+         </children>
+      </StackPane>
+      <HBox alignment="TOP_CENTER" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="7" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="8" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="9" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="/" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="4" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="5" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="6" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="*" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="1" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="2" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="3" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="TOP_CENTER" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="130.0" text="0" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="=" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="+" textAlignment="CENTER">
+               <font>
+                  <Font name="Yet R" size="26.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
